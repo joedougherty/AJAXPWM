@@ -1,0 +1,36 @@
+body, html 
+{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+div#sliderContainer 
+{
+  border:1px solid gray;
+  width: 70px;
+  height: 287px; /* Ensures (top) position ranges from 0-255 */
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: #fff;
+}
+
+div#slider
+{
+  border:1px solid black;
+  background-color: #bbb;
+  width: 68px;
+  height: 30px;
+}
+
+div#posReporter
+{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  width: 150px;
+  height: 90px;
+  font-family: Arial;
+  size: 11px;
+  background-color: #ddd;
+}
